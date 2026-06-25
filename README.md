@@ -1,5 +1,5 @@
-# Full-Bug-Bounty-Hunting-Methodology-2026
-How To approach recon on real targets — from passive enumeration to origin IP discovery. Covers tools, automation, and the logic behind each phase.
+# 🕵️‍♂️ Full Bug Bounty Hunting & Red Teamers Methodology 2026
+Created by Cybernote, aspiring Red Team Operator and Bug Bounty Hunter. This repository documents my methodology, notes and workflow for web application security testing.
 
 ---
 
@@ -30,41 +30,6 @@ This methodology is ordered by **signal-to-noise ratio**: start wide and passive
 13. [Phase 13 — Subdomain Takeover Detection](#phase-13--subdomain-takeover-detection)
 14. [Wordlists Reference](#wordlists-reference)
 15. [OSINT Platforms Reference](#osint-platforms-reference)
-
-# 🕵️‍♂️ Advanced Web Recon Methodology for Bug Hunters & Red Teamers
-
-> A battle-tested, automation-first approach to mapping modern attack surfaces — built from real-world engagements, not just standard cheat sheets.
-
----
-
-## 🎯 Philosophy
-
-Most hunters treat Recon as a static checklist. I treat it as an **active intelligence operation**.
-
-The goal isn't to blindly run every tool available — it's to map the full attack surface faster, deeper, and more accurately than anyone else. Every phase feeds the next. Every single finding is a potential pivot point.
-
-This methodology is strictly ordered by **signal-to-noise ratio**: start wide and passive to minimize noise, then narrow down aggressively before sending a single exploit payload.
-
----
-
-## 📌 Table of Contents
-
-1. [Prerequisites & Environment](#-prerequisites--environment)
-2. [Phase 1 — Passive Subdomain Enumeration](#phase-1--passive-subdomain-enumeration)
-3. [Phase 2 — Active Subdomain Enumeration & Bruteforce](#phase-2--active-subdomain-enumeration--bruteforce)
-4. [Phase 3 — Infrastructure Mapping (ASN / CIDR / IPs)](#phase-3--infrastructure-mapping-asn--cidr--ips)
-5. [Phase 4 — WAF Bypass & Origin IP Discovery](#phase-4--waf-bypass--origin-ip-discovery)
-6. [Phase 5 — Merge, Resolve & Alive Host Detection](#phase-5--merge-resolve--alive-host-detection)
-7. [Phase 6 — Virtual Host Enumeration](#phase-6--virtual-host-enumeration)
-8. [Phase 7 — URL & Endpoint Discovery](#phase-7--url--endpoint-discovery)
-9. [Phase 8 — JavaScript Analysis & Secret Extraction](#phase-8--javascript-analysis--secret-extraction)
-10. [Phase 9 — Directory & Sensitive File Discovery](#phase-9--directory--sensitive-file-discovery)
-11. [Phase 10 — GitHub & Source Code Intelligence](#phase-10--github--source-code-intelligence)
-12. [Phase 11 — Port Scanning & Service Fingerprinting](#phase-11--port-scanning--service-fingerprinting)
-13. [Phase 12 — Automated Vulnerability Scanning](#phase-12--automated-vulnerability-scanning)
-14. [Phase 13 — Subdomain Takeover Detection](#phase-13--subdomain-takeover-detection)
-15. [Wordlists Reference](#wordlists-reference)
-16. [OSINT Platforms Reference](#osint-platforms-reference)
 
 ---
 
