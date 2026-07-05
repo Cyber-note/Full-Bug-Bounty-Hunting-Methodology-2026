@@ -1,9 +1,7 @@
 # 🕵️‍♂️ Full Bug Bounty Hunting & Red Teamers Methodology 2026
 Created by Cybernote, aspiring Red Team Operator and Bug Bounty Hunter. This repository documents my methodology, notes and workflow for web application security testing.
 
-⭐ If you found this project useful, consider starring the repository.
-
-Follow me on X for more Offensive Security research: { https://x.com/Cybernote9 } 
+⭐ If you found this project useful Follow me on X for more Offensive Security research: { https://x.com/Cybernote9 } 
 
 ---
 
