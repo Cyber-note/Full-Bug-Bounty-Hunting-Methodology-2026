@@ -1,0 +1,2 @@
+# recon.py uses only the Python standard library; no pip packages are required.
+# External CLI prerequisites (install separately): subfinder, dnsx, httpx.
